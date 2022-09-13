@@ -7,4 +7,8 @@ public class Dog extends Animal {
         super.sleep();
         System.out.println("Dog is sleeping");
     }
+
+    public void sound(){
+        System.out.println("bhowv  bhow");
+    }
 }
