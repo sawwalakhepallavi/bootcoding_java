@@ -11,7 +11,7 @@ public class College {
     }
 
     void takeAttendance(){
-         department.get(0).attendance();
+//         department.get(0).attendance();
     }
 
 }
