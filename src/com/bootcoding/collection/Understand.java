@@ -7,7 +7,7 @@ public class Understand {
         ArrayList a=new ArrayList();
         a.add(10);
         a.add(20);
-        a.r
+
         a.add(30);
         a.add(2,25);
         System.out.println(a.get(2));
