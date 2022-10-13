@@ -1,4 +1,4 @@
-package com.bootcoding.collection;
+package com.bootcoding.hashmap;
 
 import java.util.HashMap;
 

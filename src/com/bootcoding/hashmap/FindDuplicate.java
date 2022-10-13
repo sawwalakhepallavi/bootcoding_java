@@ -1,4 +1,4 @@
-package com.bootcoding.collection;
+package com.bootcoding.hashmap;
 
 import java.util.HashMap;
 
@@ -11,7 +11,7 @@ public class FindDuplicate {
     public int dupliFind(int []arr) {
         HashMap<Integer, Integer> countMap = new HashMap<>();
         int n = arr.length;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i<n; i++) {
             if (countMap.containsKey(arr[i])) {
                 int v = countMap.get(arr[i]);
                 countMap.put(arr[i], v + 1);
