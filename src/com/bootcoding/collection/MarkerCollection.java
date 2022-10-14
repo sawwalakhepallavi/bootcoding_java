@@ -4,6 +4,7 @@ import com.bootcoding.oops.Markers;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class MarkerCollection {
     Map<Long, Markers> markerStore=new HashMap<>();
@@ -23,9 +24,15 @@ public class MarkerCollection {
 
     public static void main(String[] args) {
         MarkerCollection mcs=new MarkerCollection();
-        for(int i=0;i<=10;i++){
+
+        Random random=new Random();
+        for(int i=0;i<=5;i++){
             Markers m=new Markers();
-            m.setTypr("white"+i);
+            String[] colors ={"white","pink","blue","green","red"};
+
+            int colourCount = random.nextInt(colors.length);
+
+            m.setTypr("Color "+colors[colourCount] );
             m.setPrice((i+100)*25);
             m.setId(i);
             m.setCompary("camblin"+i);
