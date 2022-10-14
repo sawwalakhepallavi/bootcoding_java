@@ -6,21 +6,17 @@ public class Fan {
     private long sale;
     private String color;
 
-    @Override
-    public String toString() {
-        return "Fan{" +
-                "company='" + company + '\'' +
-                ", price=" + price +
-                ", sale=" + sale +
-                ", color='" + color + '\'' +
-                '}';
-    }
+
 
     public Fan(String company, int price, long sale, String color) {
         this.company = company;
         this.price = price;
         this.sale = sale;
         this.color = color;
+    }
+
+    public Fan() {
+
     }
 
     public String getColor() {
@@ -39,7 +35,7 @@ public class Fan {
         this.company = company;
     }
 
-    public int getPrice() {
+    public long getPrice() {
         return price;
     }
 
