@@ -51,7 +51,9 @@ public class Markers {
     public void fillMarker(){
             System.out.println("Fill Marker");
         }
-        public Markers(){}
+        public Markers(){
+
+        }
         public Markers(String cmp,String clr,String t,double p){
             compary=cmp;
             color=clr;
