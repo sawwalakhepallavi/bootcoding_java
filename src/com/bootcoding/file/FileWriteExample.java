@@ -23,7 +23,7 @@ public class FileWriteExample {
 
 
             FileWriter fw=new FileWriter(file);
-            fw.write("Welcome to the file Writting example,data has been written by programmatically....!");
+            fw.write("Welcome to the file Writing example,data has been written by programmatically....!");
             fw.close();
             System.out.println("File Contents:");
             Scanner sc=new Scanner(file);
