@@ -10,6 +10,7 @@ public class ArrayLength {
             a[i]=a[n-1-i];
             a[n-1-i]=temp;
 
+            
         }
         for (int j : a) {
             System.out.println(j);
