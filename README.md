@@ -20,7 +20,8 @@ Linked List is a part of the Collection framework present in java.util package. 
 
 **1. Singular Linked List**
 
-!["C:\Users\Hp\Downloads\Untitled Diagram.drawio.png"]
+![cir drawio - Copy](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/9875d365-14a6-4293-bf4d-f657a3d3b131)
+
 
 - The type of linked list consisting of a sequence of nodes where each node consists of data and a link to the next node, that can be traversed from the first node of the list (also called as head) to the last node of the list (also called as Tail)  and is unidirectional is called Singly Linked list.
 - The above figure demonstrates a singly linked list.
