@@ -20,8 +20,7 @@ Linked List is a part of the Collection framework present in java.util package. 
 
 **1. Singular Linked List**
 
-![cir drawio - Copy](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/9875d365-14a6-4293-bf4d-f657a3d3b131)
-
+![Untitled Diagram drawio](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/f7234119-5515-4506-a594-cfe05593b200)
 
 - The type of linked list consisting of a sequence of nodes where each node consists of data and a link to the next node, that can be traversed from the first node of the list (also called as head) to the last node of the list (also called as Tail)  and is unidirectional is called Singly Linked list.
 - The above figure demonstrates a singly linked list.
@@ -105,7 +104,7 @@ The data in the given list are:
 ```
 **2. Doubly Linked List**
 
-!["C:\Users\Hp\Downloads\dup.drawio.png"]
+
 - This type of a linked list consists of a sequence of nodes where each node consists of data and two pointers, namely the previous pointer pointing to the previous node and the subsequent pointer that points to the next node that is part of the list. This can be traversed from the first node of the list to the last node of the list and vice versa, and this is called Doubly Linked list.
 - The above figure demonstrates a doubly linked list.
 - Data is the data stored in the node and each node consists of two pointers namely the previous pointer and the next pointer.
