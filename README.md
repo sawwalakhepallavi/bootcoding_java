@@ -105,6 +105,7 @@ The data in the given list are:
 **2. Doubly Linked List**
 
 
+
 - This type of a linked list consists of a sequence of nodes where each node consists of data and two pointers, namely the previous pointer pointing to the previous node and the subsequent pointer that points to the next node that is part of the list. This can be traversed from the first node of the list to the last node of the list and vice versa, and this is called Doubly Linked list.
 - The above figure demonstrates a doubly linked list.
 - Data is the data stored in the node and each node consists of two pointers namely the previous pointer and the next pointer.
@@ -176,7 +177,7 @@ The data in the doubly linked list are:
 ```
 **3. Circular Linked List**
 
-!["C:\Users\Hp\Downloads\cir.drawio.png"]
+![cir drawio - Copy](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/bc614c79-4fc8-4ea5-8af9-346942169afa)
 
 It is the type of linked list consisting of a sequence of nodes where each node consists of data and a link to the next node and the last node in the list (also called as tail) that points to the first node in the list (also called as head) is called as Circular Linked List.
 ## code on circular linked list
