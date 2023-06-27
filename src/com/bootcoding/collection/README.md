@@ -6,7 +6,7 @@ In Java, we use the `ArrayList` class to implement the functionality of resizabl
 It implements the `List` interface of the collections framework.
 
 
-![Untitled Diagram drawio](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/c09ff7d9-0a7b-4554-a282-51b2773c9214)
+![Untitled Diagram drawio (2)](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/84c1a1fa-c3d7-47cc-8193-570bd505680e)
 
 
 ## creating a ArrayList
