@@ -4,7 +4,7 @@ package com.bootcoding.composition;
 public class Book {
     private String title;
     private Author[] author;
-    private Publication publication;
+//    private Publication publication;
 
     public String getTitle() {
         return title;
@@ -22,13 +22,13 @@ public class Book {
         this.author = author;
     }
 
-    public Publication getPublication() {
-        return publication;
-    }
+//    public Publication getPublication() {
+//        return publication;
+//    }
 
-    public void setPublication(Publication publication) {
-        this.publication = publication;
-    }
+//    public void setPublication(Publication publication) {
+//        this.publication = publication;
+//    }
 
 
 }
