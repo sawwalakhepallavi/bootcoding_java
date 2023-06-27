@@ -5,7 +5,8 @@ In Java, we use the `ArrayList` class to implement the functionality of resizabl
 
 It implements the `List` interface of the collections framework.
 
-!["C:\Users\Hp\Downloads\Untitled Diagram.drawio.png"]
+
+![Untitled Diagram drawio](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/bda8e8ef-ed66-4d11-819f-9e7ecf64f22d)
 
 ## creating a ArrayList
 
