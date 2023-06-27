@@ -1,4 +1,4 @@
-package com.bootcoding.collection.arrayList;
+package com.bootcoding.collection.arrayList.student;
 
 public class Record {
     private String studentName;
