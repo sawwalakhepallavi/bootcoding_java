@@ -1,4 +1,4 @@
-# what is ArrayList ?
+# What is ArrayList ?
 The ArrayList class is a resizable array, which can be found in the java.util package. The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified (if you want to add or remove elements to/from an array, you have to create a new one).
 
 In Java, we use the `ArrayList` class to implement the functionality of resizable-arrays.
@@ -9,7 +9,7 @@ It implements the `List` interface of the collections framework.
 ![Untitled Diagram drawio (2)](https://github.com/sawwalakhepallavi/bootcoding_java/assets/101243878/84c1a1fa-c3d7-47cc-8193-570bd505680e)
 
 
-## creating a ArrayList
+## Creating a ArrayList
 
 Before using ArrayList, we need to import the `java.util.ArrayList` package first. Here is how we can create arraylists in Java:
 
