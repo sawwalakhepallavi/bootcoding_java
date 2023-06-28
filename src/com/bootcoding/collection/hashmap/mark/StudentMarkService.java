@@ -12,12 +12,22 @@ public class StudentMarkService {
         }
         return subjectMarks;
     }
-
+    public void distinctMark(SubjectMark sm){
+        if(sm.getObtainedMarks()>=80){
+            sm.setGrade("Division-I");
+        } else if (sm.getObtainedMarks()<=79 && sm.getObtainedMarks()>=60 ) {
+            sm.setGrade("Division-II");
+        }else {
+            sm.setGrade("Division-III");
+        }
+    }
 
     public void processResult(List<SubjectMark> marks){
         for(SubjectMark m : marks){
             calculate(m);
+            distinctMark(m);
         }
+
     }
 
     public void calculate(SubjectMark sm){
@@ -47,7 +57,6 @@ public class StudentMarkService {
         sm.setTotalMarks(100);
         sm.setObtainedMarks(getRandomMarks());
         sm.setSubjectName(getRandomSubject());
-//        sm.setPassed(getIsPassed());
 
         return sm;
     }

@@ -29,6 +29,7 @@ public class SubjectApp {
             System.out.println("Subject : " + sm.getSubjectName());
             System.out.println("Total Marks: " + sm.getTotalMarks());
             System.out.println("Obtained Marks: " + sm.getObtainedMarks());
+            System.out.println(sm.getGrade());
             System.out.println(sm.isPassed() ? "PASSED" : "FAILED");
         }
     }
