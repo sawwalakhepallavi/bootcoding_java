@@ -1,6 +1,6 @@
 package com.bootcoding.oops.encapsulation;
 
-import javafx.application.Application;
+
 
 public class TestEncapsulation {
     public static void main(String[] args) {

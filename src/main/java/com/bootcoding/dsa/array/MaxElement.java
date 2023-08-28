@@ -1,6 +1,6 @@
 package com.bootcoding.dsa.array;
 
-import com.sun.xml.internal.fastinfoset.tools.XML_SAX_StAX_FI;
+
 
 //WAP to find max element of an array
 public class MaxElement {

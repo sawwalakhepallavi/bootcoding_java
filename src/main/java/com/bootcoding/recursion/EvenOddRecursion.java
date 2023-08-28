@@ -1,6 +1,6 @@
 package com.bootcoding.recursion;
 
-import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
+
 
 public class EvenOddRecursion {
     public void printEvenOdd(int n){

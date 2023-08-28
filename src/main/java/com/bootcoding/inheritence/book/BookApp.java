@@ -15,6 +15,7 @@ public class BookApp {
 
         book.buy();
         book.sale();
+        book.sale();;
 //        audioBook.audiobooks();
 //        eBook.eBooks();
 //        testBook.testBooks();
